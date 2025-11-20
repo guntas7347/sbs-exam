@@ -1,4 +1,4 @@
-import { User, Mail, Phone, MapPin, Calendar, BookOpen } from 'lucide-react';
+import { User, Mail, Calendar, BookOpen } from "lucide-react";
 
 export default function ProfilePage() {
   return (
@@ -47,7 +47,9 @@ export default function ProfilePage() {
             </h2>
             <form className="space-y-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Email Address
+                </label>
                 <input
                   type="email"
                   defaultValue="rahul.kumar@SBSSU.edu"
@@ -55,7 +57,9 @@ export default function ProfilePage() {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">Phone Number</label>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Phone Number
+                </label>
                 <input
                   type="tel"
                   defaultValue="+91-9876543210"
@@ -63,7 +67,9 @@ export default function ProfilePage() {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">Street Address</label>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Street Address
+                </label>
                 <input
                   type="text"
                   defaultValue="123 Main Street"
@@ -71,7 +77,9 @@ export default function ProfilePage() {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">City</label>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  City
+                </label>
                 <input
                   type="text"
                   defaultValue="New Delhi"
@@ -80,7 +88,9 @@ export default function ProfilePage() {
               </div>
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">State</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    State
+                  </label>
                   <input
                     type="text"
                     defaultValue="Delhi"
@@ -88,7 +98,9 @@ export default function ProfilePage() {
                   />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Pin Code</label>
+                  <label className="block text-sm font-medium text-gray-700 mb-2">
+                    Pin Code
+                  </label>
                   <input
                     type="text"
                     defaultValue="110001"
@@ -97,7 +109,9 @@ export default function ProfilePage() {
                 </div>
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">Emergency Contact Number</label>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Emergency Contact Number
+                </label>
                 <input
                   type="tel"
                   defaultValue="+91-9876543211"
@@ -118,7 +132,9 @@ export default function ProfilePage() {
             </h2>
             <form className="space-y-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">Date of Birth</label>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Date of Birth
+                </label>
                 <input
                   type="date"
                   defaultValue="1999-05-20"
@@ -126,7 +142,9 @@ export default function ProfilePage() {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">Gender</label>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Gender
+                </label>
                 <select className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
                   <option>Male</option>
                   <option>Female</option>
@@ -134,7 +152,9 @@ export default function ProfilePage() {
                 </select>
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">Blood Group</label>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Blood Group
+                </label>
                 <input
                   type="text"
                   defaultValue="O+"
@@ -142,7 +162,9 @@ export default function ProfilePage() {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">Father's Name</label>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Father's Name
+                </label>
                 <input
                   type="text"
                   defaultValue="Arun Kumar"
@@ -150,7 +172,9 @@ export default function ProfilePage() {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">Mother's Name</label>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Mother's Name
+                </label>
                 <input
                   type="text"
                   defaultValue="Anjali Kumar"
@@ -158,7 +182,9 @@ export default function ProfilePage() {
                 />
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-2">Category</label>
+                <label className="block text-sm font-medium text-gray-700 mb-2">
+                  Category
+                </label>
                 <select className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
                   <option>General</option>
                   <option>OBC</option>
@@ -182,27 +208,45 @@ export default function ProfilePage() {
           <div className="bg-gray-50 p-6 rounded-lg space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div>
-                <p className="text-sm font-medium text-gray-500 mb-2">Enrollment Number</p>
-                <p className="text-lg font-semibold text-gray-800">ENR-2021-00142</p>
+                <p className="text-sm font-medium text-gray-500 mb-2">
+                  Enrollment Number
+                </p>
+                <p className="text-lg font-semibold text-gray-800">
+                  ENR-2021-00142
+                </p>
               </div>
               <div>
-                <p className="text-sm font-medium text-gray-500 mb-2">Program</p>
-                <p className="text-lg font-semibold text-gray-800">Bachelor of Technology</p>
+                <p className="text-sm font-medium text-gray-500 mb-2">
+                  Program
+                </p>
+                <p className="text-lg font-semibold text-gray-800">
+                  Bachelor of Technology
+                </p>
               </div>
               <div>
                 <p className="text-sm font-medium text-gray-500 mb-2">Branch</p>
-                <p className="text-lg font-semibold text-gray-800">Computer Science</p>
+                <p className="text-lg font-semibold text-gray-800">
+                  Computer Science
+                </p>
               </div>
               <div>
-                <p className="text-sm font-medium text-gray-500 mb-2">Admission Date</p>
-                <p className="text-lg font-semibold text-gray-800">August 15, 2021</p>
+                <p className="text-sm font-medium text-gray-500 mb-2">
+                  Admission Date
+                </p>
+                <p className="text-lg font-semibold text-gray-800">
+                  August 15, 2021
+                </p>
               </div>
               <div>
-                <p className="text-sm font-medium text-gray-500 mb-2">Current Semester</p>
+                <p className="text-sm font-medium text-gray-500 mb-2">
+                  Current Semester
+                </p>
                 <p className="text-lg font-semibold text-gray-800">5</p>
               </div>
               <div>
-                <p className="text-sm font-medium text-gray-500 mb-2">Student Status</p>
+                <p className="text-sm font-medium text-gray-500 mb-2">
+                  Student Status
+                </p>
                 <p className="text-lg font-semibold text-green-600">Active</p>
               </div>
             </div>
